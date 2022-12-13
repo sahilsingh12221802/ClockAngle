@@ -23,8 +23,8 @@ def findAngle(hh, mm):
 # Clock Angle Problem
 if __name__ == '__main__':
  
-    hh = int(input())
-    mm = int(input())
+    hh = float(input())
+    mm = float(input())
  
     print("The angle between Hour hand and Minute hand is",findAngle(hh, mm) )
     
